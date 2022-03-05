@@ -9,6 +9,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/// <summary>
+/// CLASS MODIFICATION TEST
+/// </summary>
 namespace _20220219_ENTERPRISE_MANAGEMENT.com.logic.enterprise
 {
     public class Enterprise: AbstracMemberManagement
