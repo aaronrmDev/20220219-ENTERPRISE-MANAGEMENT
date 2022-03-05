@@ -4,7 +4,7 @@ using _20220219_ENTERPRISE_MANAGEMENT.com.logic.member;
 
 //Member member = new Member();
 //Console.WriteLine(member.Id);
-Console.WriteLine(Member.memberIDCounter);
+//Console.WriteLine(Member.memberIDCounter);
 
 Member mem1 = new Member(1, "Juan", "Operador");
 Member mem2 = new Member(1, "Andres", "Admin");
@@ -19,7 +19,7 @@ members.Add(mem3);
 members.Add(Example);
 
 members.ForEach(x => Console.WriteLine( x.Id + " " + x.Name + " " + x.Role));
-Console.WriteLine(Member.memberIDCounter);
+//Console.WriteLine(Member.memberIDCounter);
 
 
 /// <summary>
