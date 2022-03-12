@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _20220219_ENTERPRISE_MANAGEMENT.com.logic.project
 {
-    internal class LongPeriod : Project
+    public class LongPeriod : Project
     {
         private double tax;
         public double Tax { get => tax; set => tax = value; }
